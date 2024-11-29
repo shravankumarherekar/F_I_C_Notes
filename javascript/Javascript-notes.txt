@@ -1,0 +1,36 @@
+Here are some commonly asked JavaScript coding questions for a candidate with 2 years of experience in interviews:
+
+Array Manipulation:
+
+Write a function to find the second largest number in an array of numbers.
+Implement a function to remove duplicates from an array without using built-in methods.
+String Manipulation:
+
+Write a function to reverse a string without using built-in methods.
+Implement a function to check if a string is a palindrome.
+Object and Array Operations:
+
+Write a function to flatten a nested array (convert [1, [2, [3, 4]], 5] to [1, 2, 3, 4, 5]).
+Implement a function to group an array of objects by a specified key.
+Algorithmic Challenges:
+
+Solve the Fibonacci sequence using recursion and memoization techniques.
+Implement a function to find the first non-repeating character in a string.
+Asynchronous JavaScript:
+
+Use Promises or async/await to fetch data from an API and handle the response.
+Implement debounce or throttle functions for handling user input in real-time applications.
+DOM Manipulation and Events:
+
+Write JavaScript code to create a dynamic dropdown menu on mouse hover.
+Implement a carousel/slider functionality using vanilla JavaScript.
+Error Handling and Debugging:
+
+Write code to handle errors using try-catch blocks and demonstrate error propagation.
+Debug and fix common JavaScript issues like scope-related problems or incorrect function behavior.
+ES6+ Features:
+
+Use arrow functions and array methods (map, filter, reduce) to perform common operations on arrays.
+Demonstrate the usage of template literals, destructuring, and spread/rest operators in JavaScript code.
+These questions cover a broad range of JavaScript concepts and are often used to assess a candidate's problem-solving skills, understanding of core JavaScript concepts, ability to work with arrays/objects, and familiarity with modern JavaScript features and asynchronous programming. Adjust the complexity of questions based on the specific requirements of your interview.
+User

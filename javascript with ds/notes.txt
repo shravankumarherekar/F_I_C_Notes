@@ -1,0 +1,36 @@
+Here are some commonly asked Data Structures and Algorithms (DSA) questions for candidates with around 2 years of experience, focusing on arrays and strings:
+
+Arrays:
+
+Find the Missing Number:
+Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the missing number. Implement this efficiently without using extra space.
+
+Maximum Subarray Sum:
+Given an array of integers, find the contiguous subarray with the largest sum. Implement an efficient algorithm using Kadane's algorithm or dynamic programming.
+
+Rotate Array:
+Rotate an array to the right by k steps. Try to solve it in-place with O(1) extra space.
+
+Merge Intervals:
+Given a collection of intervals, merge all overlapping intervals.
+
+Strings:
+
+Reverse Words in a String:
+Given a string, reverse the order of words (words are separated by one or more spaces).
+
+Longest Substring Without Repeating Characters:
+Given a string, find the length of the longest substring without repeating characters.
+
+Anagram Detection:
+Given two strings, determine if they are anagrams of each other. Optimize your solution for efficiency.
+
+String Compression:
+Implement a method to perform basic string compression using the counts of repeated characters. For example, the string "aabcccccaaa" would become "a2b1c5a3".
+
+Tips for Interviews:
+
+Practice implementing these algorithms efficiently, considering time and space complexity.
+Understand the trade-offs between different approaches (e.g., brute force vs. optimized algorithms).
+Be ready to explain your thought process, code reasoning, and any optimizations you make during the interview.
+These questions cover important concepts related to arrays and strings and are frequently asked in technical interviews for candidates with intermediate experience in Data Structures and Algorithms. Adjust the complexity of questions based on your preparation level and the specific requirements of your interview.

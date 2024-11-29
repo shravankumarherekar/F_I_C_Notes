@@ -1,0 +1,31 @@
+Here are some commonly asked coding questions based on the topics you provided for candidates with around 2 years of experience in HTML5
+
+For HTML5 Strong Candidates
+
+1. HTML5 Outlining Algorithm
+   Write HTML code for a sample webpage using HTML5 semantic tags like `header`, `nav`, `main`, `section`, `aside`, and `footer` to create a well-structured document outline.
+
+2. SEO and Semantic Page Structure
+   Demonstrate how you would optimize HTML content for search engines by using appropriate semantic tags and meta tags (e.g., `title`, `meta name=description`, `meta name=keywords`).
+
+3. Progressive Web Apps (PWA)
+   Explain the key features and requirements of a Progressive Web App (PWA). Implement basic PWA functionalities like offline caching using service workers and a manifest file.
+
+4. HTML5 Validation
+   Use HTML5 form validation attributes (e.g., `required`, `pattern`, `maxlength`, `min`, etc.) to create a form with client-side validation.
+
+For HTML5 Capable Candidates
+
+1. Load Order and Resource Optimization
+   Discuss the importance of load order for external resources (CSSJS) and how to ensure non-blocking loading for better performance. Optimize resources using techniques like minimization, concatenation, and serving assets over HTTP2 with gzip compression.
+
+2. HTML5 Input Types and Page Structuring
+   Use HTML5 input types (`input type=email`, `input type=date`, `input type=number`, etc.) to create a form with appropriate input fields. Structure a simple webpage from scratch using HTML5 semantic tags and minimal markup.
+
+3. Newer Meta Tags and Best Practices
+   Explain the usage and benefits of newer meta tags like `meta name=viewport`, `meta http-equiv=X-UA-Compatible`, and `meta name=theme-color`. Follow best practices for including external CSSJS files, such as placing CSS files in the `head` and JS files at the end of the `body`.
+
+4. Awareness of Deprecated Elements
+   Discuss deprecated HTML elements (e.g., `font`, `center`, `strike`, etc.) and explain why they should be avoided in modern web development.
+
+These questions cover a range of HTML5 concepts and best practices relevant to candidates with 2 years of experience. Be prepared to explain your code decisions, discuss optimizations for performance and SEO, and demonstrate understanding of modern HTML5 features and standards. Adjust the complexity of questions based on your specific interview needs and the candidate's demonstrated skills during the interview process.

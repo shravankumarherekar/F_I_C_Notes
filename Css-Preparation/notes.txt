@@ -1,0 +1,48 @@
+Here are some commonly asked interview coding questions based on the CSS topics you provided for candidates with around 2 years of experience:
+
+**For CSS Strong Candidates:**
+
+1. **Flexbox and Grid Layouts:**
+   Implement a responsive layout using CSS Grid or Flexbox, showcasing knowledge of grid columns/rows, alignment, and responsiveness.
+
+2. **Animations, Transitions, and Transformations:**
+   Create CSS animations/transitions for hover effects, page load animations, or element transformations (e.g., rotate, scale).
+
+3. **Advanced Bootstrap Usage:**
+   Utilize custom classes with Bootstrap components to create custom-styled elements or modify existing Bootstrap components using SASS for enhanced styling control.
+
+**For CSS Capable Candidates:**
+
+1. **@import, @media, @font-face:**
+   Demonstrate the use of @import for importing external stylesheets, @media queries for responsive design breakpoints, and @font-face for custom font loading.
+
+2. **Responsive Design and Mobile-First Approach:**
+   Create a responsive webpage layout using media queries targeting different screen sizes. Discuss the importance of mobile-first design principles.
+
+3. **Best Practices and Methodologies:**
+   Implement CSS using ITCSS (Inverted Triangle CSS), BEM (Block Element Modifier), or similar methodologies for scalable and maintainable CSS code. Use SASS or LESS for enhanced styling capabilities and code organization.
+
+4. **Bootstrap Basics:**
+   Utilize Bootstrap grid system, components (e.g., navbar, cards, forms), and utilities (e.g., spacing classes, text alignment) to build responsive and styled web components.
+
+**Common CSS Interview Questions for 2 Years Experience:**
+
+1. **CSS Box Model:**
+   Explain the CSS box model and its properties (margin, padding, border) and how they affect the layout and spacing of elements.
+
+2. **Selectors and Specificity:**
+   Discuss the differences between various CSS selectors (element, class, ID, pseudo-classes, pseudo-elements) and explain specificity rules in CSS.
+
+3. **CSS Cascade and Specificity:**
+   Describe the CSS cascade model and how specificity, importance, and source order affect the final styles applied to elements.
+
+4. **Common CSS Properties:**
+   Demonstrate usage and understanding of common CSS properties related to typography (font-size, font-family), layout (display, position, float), colors, backgrounds, and alignment (text-align, vertical-align).
+
+5. **Print Stylesheets:**
+   Explain the concept of print stylesheets and demonstrate how to create styles specifically for printing web pages (e.g., hiding unnecessary elements, adjusting page layout).
+
+6. **CSS Best Practices:**
+   Discuss CSS best practices such as avoiding !important, reducing duplication, using shorthand properties, optimizing selectors for performance, and organizing CSS code for maintainability.
+
+These questions cover a range of CSS concepts, methodologies, and best practices relevant to candidates with 2 years of experience. Be prepared to explain your code decisions, discuss optimizations for performance and maintainability, and demonstrate understanding of modern CSS features and standards during the interview process. Adjust the complexity of questions based on your specific interview needs and the candidate's demonstrated skills.

@@ -1,0 +1,31 @@
+Here are some commonly asked interview coding questions on React for candidates with around 2 years of experience, focusing on unit testing and related topics:
+
+1. **Unit Testing in React:**
+   - Implement unit tests for React components using a testing framework like Jest along with React Testing Library or Enzyme.
+   - Discuss the importance of unit testing in React applications for ensuring code quality, identifying bugs early, and supporting refactoring.
+
+2. **Testing Framework Knowledge:**
+   - Describe how Jest or another testing framework (e.g., Mocha, Jasmine) is used for testing React components and utilities.
+   - Explain the differences between Jest snapshots and traditional unit testing methods.
+
+3. **Identification of Scenarios and Edge Cases:**
+   - Identify and describe scenarios, edge cases, and user interactions for testing React components (e.g., handling asynchronous actions, form submissions, conditional rendering).
+   - Discuss strategies for testing different component states and behaviors using mocks, stubs, and spies.
+
+4. **Writing Unit Test Cases:**
+   - Write unit test cases for React components to cover various scenarios, props combinations, event handlers, and component lifecycle methods (e.g., componentDidMount, componentDidUpdate).
+   - Demonstrate testing of Redux/Context state management and actions using unit tests.
+
+5. **Integrating Unit Tests into CI/CD Pipelines:**
+   - Explain how unit tests are integrated into Continuous Integration/Continuous Deployment (CI/CD) pipelines using tools like Jenkins, GitLab CI/CD, or GitHub Actions.
+   - Discuss the benefits of automated testing in CI/CD pipelines for ensuring code quality and preventing regressions.
+
+6. **Best Practices and Coding Standards for Unit Testing:**
+   - Discuss best practices, coding standards, and guidelines for writing effective unit tests in React, including test organization, naming conventions, and avoiding test duplication.
+   - Explain how to use setup and teardown functions (beforeEach, afterEach) effectively in unit tests.
+
+7. **Test Coverage Metrics and TDD Approach:**
+   - Use code coverage tools like Jest coverage reports or Istanbul to measure test coverage and identify areas for improvement.
+   - Discuss the Test-Driven Development (TDD) approach in React development and demonstrate writing tests first based on requirements or user stories.
+
+These questions assess a candidate's understanding of unit testing concepts, testing frameworks, best practices, integration with CI/CD pipelines, and test-driven development approach specifically in the context of React applications. Be prepared to discuss your experience with React testing libraries, strategies for writing effective tests, and ensuring adequate test coverage during the interview process. Adjust the complexity of questions based on your specific interview needs and the candidate's demonstrated skills.

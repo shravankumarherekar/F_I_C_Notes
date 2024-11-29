@@ -1,0 +1,36 @@
+Here are some commonly asked coding questions based on the topics you provided for candidates with around 2 years of experience in JavaScript:
+
+For Strong JavaScript Candidates (Strong understanding of JavaScript concepts):
+
+Array Methods:
+
+Implement a function using array methods like map, filter, or reduce to solve a specific problem (e.g., filtering out odd numbers, finding the sum of array elements, etc.).
+DOM Manipulation:
+
+Create a dynamic form where user input modifies the DOM based on events (e.g., input validation, showing/hiding elements).
+Prototype and Constructor Functions:
+
+Implement a simple object hierarchy using constructor functions and prototype inheritance. Demonstrate how to create instances and access properties/methods.
+Event Handling:
+
+Implement event listeners for common events like click, input change, or form submission. Perform DOM manipulation or data updates based on these events.
+Fetch API:
+
+Use the Fetch API to make asynchronous requests to a server (or mock API) and handle the response using promises or async/await.
+For Capable JavaScript Candidates (Understanding core JavaScript concepts with some advanced knowledge):
+
+Event Loop and Asynchronous Programming:
+
+Explain the event loop in JavaScript and how it handles asynchronous tasks. Provide examples of code demonstrating asynchronous behavior using callbacks, promises, or async/await.
+Class Syntax and Modules:
+
+Implement a simple class hierarchy using ES6 class syntax. Demonstrate inheritance, method overriding, and accessing static properties/methods.
+Use import/export statements to organize and modularize your JavaScript code across multiple files.
+Promise API and Async Functions:
+
+Implement a function using promises to handle asynchronous operations sequentially or concurrently (e.g., fetching multiple resources and processing the results).
+Explain the difference between Promise methods (then, catch, finally) and demonstrate their usage.
+Understanding 'this' and Function Binding:
+
+Explain the behavior of this in different contexts (global, object method, arrow functions, event handlers). Demonstrate function binding using call, apply, bind, and explain the role of arrow functions in preserving this context.
+These questions cover a range of JavaScript concepts and skills commonly expected from candidates with 2 years of experience. They assess candidates' abilities to work with core JavaScript features, handle DOM manipulation and events, use modern syntax (ES6+), and understand asynchronous programming concepts effectively. Adjust the complexity of questions based on your specific interview needs and the candidate's demonstrated skills during the interview process.

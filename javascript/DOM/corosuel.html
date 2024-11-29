@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carousel Slider</title>
+ <style>.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  #prevBtn,
+  #nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #prevBtn {
+    left: 10px;
+  }
+  
+  #nextBtn {
+    right: 10px;
+  }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+  const slideContainer = document.querySelector('.carousel-slide');
+  const slides = document.querySelectorAll('.carousel-slide img');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+
+  let slideIndex = 0;
+
+  function showSlide(index) {
+    slideContainer.style.transform = `translateX(-${index * 100}%)`;
+  }
+
+  function goToPrevSlide() {
+    if (slideIndex > 0) {
+      slideIndex--;
+    } else {
+      slideIndex = slides.length - 1;
+    }
+    showSlide(slideIndex);
+  }
+
+  function goToNextSlide() {
+    if (slideIndex < slides.length - 1) {
+      slideIndex++;
+    } else {
+      slideIndex = 0;
+    }
+    showSlide(slideIndex);
+  }
+
+  // Event listeners for prev/next buttons
+  prevBtn.addEventListener('click', goToPrevSlide);
+  nextBtn.addEventListener('click', goToNextSlide);
+
+  // Auto slide functionality (uncomment to enable)
+  // setInterval(goToNextSlide, 3000); // Change slide every 3 seconds
+});
+
+  </script>
+</head>
+<body>
+  <div class="carousel-container">
+    <div class="carousel-slide">
+      <img src="image1.jpg" alt="Image 1">
+      <img src="image2.jpg" alt="Image 2">
+      <img src="image3.jpg" alt="Image 3">
+    </div>
+    <button id="prevBtn">Prev</button>
+    <button id="nextBtn">Next</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

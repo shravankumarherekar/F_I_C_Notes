@@ -1,0 +1,359 @@
+The JavaScript Tree:
+|
+|── Variables
+| ├── var
+| ├── let
+| └── const
+|
+|── Data Types
+| ├── String
+| ├── Number
+| ├── Boolean
+| ├── Object
+| ├── Array
+| ├── Null
+| └── Undefined
+|
+|── Operators
+| ├── Arithmetic
+| ├── Assignment
+| ├── Comparison
+| ├── Logical
+| ├── Unary
+| └── Ternary (Conditional)
+|
+|── Control Flow
+| ├── if statement
+| ├── else statement
+| ├── else if statement
+| ├── switch statement
+| ├── for loop
+| ├── while loop
+| └── do-while loop
+|
+|── Functions
+| ├── Function declaration
+| ├── Function expression
+| ├── Arrow function
+| └── IIFE (Immediately Invoked Function Expression)
+|
+|── Scope
+| ├── Global scope
+| ├── Local scope
+| ├── Block scope
+| └── Lexical scope
+|
+|── Arrays
+| ├── Array methods
+| | ├── push()
+| | ├── pop()
+| | ├── shift()
+| | ├── unshift()
+| | ├── splice()
+| | ├── slice()
+| | └── concat()
+| └── Array iteration
+| ├── forEach()
+| ├── map()
+| ├── filter()
+| └── reduce()
+|
+|── Objects
+| ├── Object properties
+| | ├── Dot notation
+| | └── Bracket notation
+| ├── Object methods
+| | ├── Object.keys()
+| | ├── Object.values()
+| | └── Object.entries()
+| └── Object destructuring
+|
+|── Promises
+| ├── Promise states
+| | ├── Pending
+| | ├── Fulfilled
+| | └── Rejected
+| ├── Promise methods
+| | ├── then()
+| | ├── catch()
+| | └── finally()
+| └── Promise.all()
+|
+|── Asynchronous JavaScript
+| ├── Callbacks
+| ├── Promises
+| └── Async/Await
+|
+|── Error Handling
+| ├── try...catch statement
+| └── throw statement
+|
+|── JSON (JavaScript Object Notation)
+|
+|── Modules
+| ├── import
+| └── export
+|
+|── DOM Manipulation
+| ├── Selecting elements
+| ├── Modifying elements
+| └── Creating elements
+|
+|── Events
+| ├── Event listeners
+| ├── Event propagation
+| └── Event delegation
+|
+|── AJAX (Asynchronous JavaScript and XML)
+|
+|── Fetch API
+|
+|── ES6+ Features
+| ├── Template literals
+| ├── Destructuring assignment
+| ├── Spread/rest operator
+| ├── Arrow functions
+| ├── Classes
+| ├── let and const
+| ├── Default parameters
+| ├── Modules
+| └── Promises
+|
+|── Web APIs
+| ├── Local Storage
+| ├── Session Storage
+| └── Web Storage API
+|
+|── Libraries and Frameworks
+| ├── React
+| ├── Angular
+| └── Vue.js
+|
+|── Debugging
+| ├── Console.log()
+| ├── Breakpoints
+| └── DevTools
+|
+|── Others
+| ├── Closures
+| ├── Callbacks
+| ├── Prototypes
+| ├── this keyword
+| ├── Hoisting
+| └── Strict mode
+|
+|____________ END __________________
+
+________________________________________________
+
+JavaScript was Complicated.
+Learning these concepts made it easier for me:
+𝟭. 𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲𝘀 𝗮𝗻𝗱 𝗗𝗮𝘁𝗮 𝗧𝘆𝗽𝗲𝘀:
+-> Declaration (`var`, `let`, `const`)
+-> Primitive data types (strings, numbers, booleans, null, undefined)
+-> Complex data types (arrays, objects, functions)
+-> Type coercion and conversion
+𝟮. 𝗢𝗽𝗲𝗿𝗮𝘁𝗼𝗿𝘀 𝗮𝗻𝗱 𝗘𝘅𝗽𝗿𝗲𝘀𝘀𝗶𝗼𝗻𝘀:
+-> Arithmetic operators (+, -, *, /, %)
+-> Assignment operators (=, +=, -=, *=, /=, %=)
+-> Comparison operators (==, ===, !=, !==, <, >, <=, >=)
+-> Logical operators (&&, || , !)
+-> Ternary operator (conditional operator)
+𝟯. 𝗖𝗼𝗻𝘁𝗿𝗼𝗹 𝗙𝗹𝗼𝘄:
+-> Conditional statements (`if`, `else if`, `else`)
+-> Switch statement
+-> Loops (`for`, `while`, `do-while`)
+-> Break and continue statements
+𝟰. 𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻𝘀:
+-> Function declaration and expression
+-> Arrow functions
+-> Parameters and arguments
+-> Return statement
+-> Scope (global scope, function scope, block scope)
+-> Closures
+-> Callback functions
+𝟱. 𝗔𝗿𝗿𝗮𝘆𝘀 𝗮𝗻𝗱 𝗢𝗯𝗷𝗲𝗰𝘁𝘀:
+-> Creation and initialization
+-> Accessing and modifying elements
+-> Array methods (push, pop, shift, unshift, splice, slice, concat, etc.)
+-> Object properties and methods
+-> JSON (JavaScript Object Notation)
+𝟲. 𝗖𝗹𝗮𝘀𝘀𝗲𝘀 𝗮𝗻𝗱 𝗣𝗿𝗼𝘁𝗼𝘁𝘆𝗽𝗲𝘀:
+-> Class syntax (constructor, methods, static methods)
+-> Inheritance
+-> Prototypal inheritance
+-> Object.create() and Object.setPrototypeOf()
+𝟳. 𝗘𝗿𝗿𝗼𝗿 𝗛𝗮𝗻𝗱𝗹𝗶𝗻𝗴:
+-> Try...catch statement
+-> Throwing errors
+-> Error objects (Error, SyntaxError, TypeError, etc.)
+-> Error handling best practices
+𝟴. 𝗔𝘀𝘆𝗻𝗰𝗵𝗿𝗼𝗻𝗼𝘂𝘀 𝗝𝗮𝘃𝗮𝗦𝗰𝗿𝗶𝗽𝘁:
+-> Callbacks
+-> Promises (creation, chaining, error handling)
+-> Async/await syntax
+-> Fetch API
+-> setTimeout() and setInterval()
+𝟵. 𝗗𝗢𝗠 𝗠𝗮𝗻𝗶𝗽𝘂𝗹𝗮𝘁𝗶𝗼𝗻:
+-> Selecting DOM elements
+-> Modifying element properties and attributes
+-> Creating and removing elements
+-> Traversing the DOM
+𝟭𝟬. 𝗘𝘃𝗲𝗻𝘁 𝗛𝗮𝗻𝗱𝗹𝗶𝗻𝗴:
+-> Adding event listeners
+-> Event objects
+-> Event propagation (bubbling and capturing)
+-> Event delegation
+𝟭𝟭. 𝗠𝗼𝗱𝘂𝗹𝗲𝘀 𝗮𝗻𝗱 𝗠𝗼𝗱𝘂𝗹𝗮𝗿𝗶𝘇𝗮𝘁𝗶𝗼𝗻:
+-> ES6 modules (import/export)
+-> CommonJS modules (require/module.exports)
+-> Module bundlers (Webpack, Rollup)
+𝟭𝟮. 𝗕𝗿𝗼𝘄𝘀𝗲𝗿 𝗖𝗼𝗺𝗽𝗮𝘁𝗶𝗯𝗶𝗹𝗶𝘁𝘆 𝗮𝗻𝗱 𝗣𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲:
+-> Cross-browser compatibility
+-> Performance optimization techniques
+-> Minification and code splitting
+-> Lazy loading
+
+_________________________________________________________
+
+
+_____________________________________________________________
+
+[6/3, 11:36 AM] Srikanth Shanmukesh: Here we go with the list
+[6/3, 11:37 AM] Srikanth Shanmukesh: Javascripts arrays and objects built in usecases
+[6/3, 11:38 AM] Srikanth Shanmukesh: Examples must read
+[6/3, 11:38 AM] Srikanth Shanmukesh: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+[6/3, 11:38 AM] Srikanth Shanmukesh: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+[6/3, 11:38 AM] Srikanth Shanmukesh: Json manipulations traversing lookups
+[6/3, 11:39 AM] Srikanth Shanmukesh: Iife closures
+[6/3, 11:39 AM] Srikanth Shanmukesh: Call and apply
+[6/3, 11:39 AM] Srikanth Shanmukesh: Async and await
+[6/3, 11:40 AM] Srikanth Shanmukesh: Basic es6 features, arrow let constant
+[6/3, 11:40 AM] Srikanth Shanmukesh: Destructuring
+[6/3, 11:40 AM] Srikanth Shanmukesh: Template literala
+[6/3, 11:41 AM] Srikanth Shanmukesh: Spread and rest operators
+[6/3, 11:41 AM] Srikanth Shanmukesh: Json to object etc.,
+[6/3, 11:41 AM] Srikanth Shanmukesh: Coming to angular:
+[6/3, 11:42 AM] Srikanth Shanmukesh: Components, data sharing in between compnents
+[6/3, 11:42 AM] Srikanth Shanmukesh: Basic crud operations
+[6/3, 11:42 AM] Srikanth Shanmukesh: Custom pipe example usecase
+[6/3, 11:42 AM] Srikanth Shanmukesh: Behavior child
+[6/3, 11:43 AM] Srikanth Shanmukesh: Rxjs operators
+--------------
+
+Inline elements style or format particular content sections within block-level elements. For example, <span>, <a>, <strong>, and <em> take up only the appropriate width and do not begin on a new line. HTML Block components are used to organize a webpage's major content. They usually begin on a new line and fill the entire container width, e.g., <div>, <p>, <h1> to <h6>, <ul>, etc.
+
+The main difference between “display: none” and “visibility: hidden” is that the former removes the element from the document flow, while the latter simply hides it. Elements with “display: none” are not visible and do not take up any space on the page, while elements with “visibility: hidden” are not visible but still take up space.
+
+HTML5 now includes new components that make writing simple, quick code for intricate, dynamic, engaging, and successful websites possible. These new components add improved page layouts, functional features, and other enhancements.
+
+<audio>: Embeds audio content directly into a webpage. It supports multiple audio formats (e.g., MP3, WAV, OGG).  It includes pause, play, and more.
+<video>: Embeds video content into a webpage. It supports multiple video formats (e.g., MP4, WebM, Ogg).  It includes attributes like controls, autoplay, loop, and more.
+<source>: Defines multiple media resources for <audio> and <video>. It allows browsers to choose the best-supported format.
+<track>: Adds text tracks (e.g., captions, subtitles, descriptions) to <audio> or <video> elements. It supports attributes like kind, src, and label.
+<embed>: Embeds external content, including multimedia like video or audio, and applications such as PDF viewers. Unlike <audio> and <video>, it is a general-purpose element.
+
+
+Web Workers provide a simple way for web content to run scripts on background threads. The worker thread can complete tasks without affecting the user interface. They can also use the XMLHttpRequest and fetch() APIs for network requests. 
+
+After it is created, a worker can post messages to an event handler provided by the JavaScript code to convey messages to that code. Web Workers enable long-running tasks to be executed without interrupting user interactions, keeping the UI responsive.
+
+HTML5 is an improved version of HTML that incorporates multi-platform and multimedia compatibility capabilities while also improving HTML. Here are ways in which HTML5 is better than its previous versions:
+
+HTML5 has enhanced the code structure, making it clearer and cleaner for programmers and non-programmers with its numerous new and modified tags. 
+HTML5 offers a new cross-browser compatibility capability supported by several mainstream web browser versions rather than being limited to a particular platform or browser. 
+HTML5 Web Storage reduces server costs by removing cookies and offering 5 MB of client-side storage space for data storage. This data is stored locally and is not transmitted via the server, making HTML5 Web Storage more secure than prior iterations. 
+HTML5 can adjust attributes like controls, loop, autoplay, muted, src, height, width, etc., following the <audio> and <video> tags.
+As you prepare for your job interview, we hope these HTML Interview Questions have provided more insight into the questions you will likely encounter.
+
+---
+
+css
+________________________________________________
+  <link rel="stylesheet" href="styles.css">
+  
+  Class is a way of using HTML elements for styling. They are not unique and have multiple elements. Whereas ID is unique and it can be assigned to a single element.
+  
+  This is one of the most frequently asked CSS interview questions. Z-index is used to specify the stack order of elements that overlap each other. Its default value is zero and can take both negative and positive values. A higher z-index value is stacked above the lower index element. It takes the following values- auto, number, initial, and inherit. 
+  
+  The font-related attributes are Font- style, variant, weight, family, size, etc. 
+  
+  Universal Selector, Element type Selector, ID selector, Class selector, Descendant combinatory, Child Combinator, General Sibling Combinator, Adjacent sibling combinator, and Attribute selector.
+  
+  CSS preprocessor is a tool used to enhance the basic functionality and let us use the complex logical syntax such as variables, functions, mixins, and code nesting within vanilla CSS scripts themselves.
+
+Sass (Syntactically Awesome Style Sheets) uses .sass extension. It is used for indentation; it doesn’t use semicolons or curly brackets.
+Less (Leener Stylesheets) uses .less extension. It is easy to add to any JavaScript Project by using NPM or less.js file. Here, @ is used to define the variables. 
+Stylus provides great flexibility in writing syntax. It is able to use native CSS as well as the exclusion of brackets, colons, and semicolons. There is no need to use @ or $ to define the variables.
+People use SASS, LESS, and Stylus in order to extend the basic functionality of vanilla CSS.
+
+  VH and VW are CSS units used to measure viewport height and viewport width respectively in percentage form in the responsive design techniques. E.g. If the height of the browser is 1000px, then VH is 1/100 of the height of the viewport that is 1000px*(1/100) = 10px, which is the height of the browser.  The same applies to VW (viewport width).
+  
+  Block Elements are <div> and <p>. They usually start on a new line and can take space for an entire row or width.
+Inline elements are <a>, <span>, <strong>, and <img> tags. They don't start on a new line. However, they appear on the same line as the content and tags beside them.
+Inline block elements have padding and margins and set height and width values. Though, they are similar to inline elements.  
+
+  Pseudo-classes are the type of pseudo-elements that don’t exist in a normal document tree. It allows selecting the regular elements under certain conditions especially when we try to hover over the link; the anchor tags are :link, :visited, :hover, :active, :focus
+
+In this example, the color will be red on the anchor tag when it’s hovered.
+
+/* mouse over link */
+
+a:hover {
+
+color: #FFOOFF;
+
+}
+
+
+
+Px (Pixel) is used for fine-grained control and alignment and not cascade. To get it sharp, we can use 1px or multiple of px.
+Em is used to maintain relative size and responsive fonts. 1em = 16px having also the same font size. It is advisable to set the font size to 10px in common practice.
+Pt (point) is a fixed-size unit that is used in print. 1pt = 1/72 inch.
+Percentage (%) is used to set the font size with respect to the font size of the body. Thus, it is necessary to set the reasonable font size of the body.
+
+
+Content-box inner , Padding-box and Border-box margin top
+
+The CSS grid system is a type of powerful layout of 2 dimensional systems with respect to columns and rows.
+
+center div
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+
+
+CSS Grid Layout is a two-dimensional system along with rows and columns. It is used for large-sized layouts.
+Flexbox is a Grid layout with a one-dimensional system either within a row or a column. It is used for the components of an application.
+_______________________
+Call invokes the function and allows you to pass in arguments one by one.
+Apply invokes the function and allows you to pass in arguments as an array.
+Bind returns a new function, allowing you to pass in a this array and any number of arguments.
+
+
+assign constant is expression and normal function is declaration 
+
+
+// Normal Function
+const numbers = function(one, two) {}
+
+// Arrow Function, with parentheses
+const numbers = (one, two) => {}
+
+
+const me = () => ({ name: "samantha" });
+
+me(); // { name: "samantha" } ✅
+
+const me = () => { name: "samantha" };
+
+me(); // undefined 😱

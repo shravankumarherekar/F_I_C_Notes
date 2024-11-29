@@ -1,0 +1,50 @@
+Here are some commonly asked coding questions for React candidates with around 2 years of experience, categorized based on their proficiency level:
+
+For React Experts (Strong understanding of advanced React concepts):
+
+Code-Splitting:
+
+Implement code-splitting using React.lazy and Suspense to load components dynamically based on routes or user interactions.
+Render Props and React.memo:
+
+Create a reusable component using render props pattern to share logic or data between components.
+Optimize performance using React.memo for functional components to prevent unnecessary re-renders.
+Profiler API and DevTools:
+
+Use React Profiler API to measure and optimize the performance of specific components or parts of your application.
+Demonstrate how to profile components using browser DevTools and identify performance bottlenecks.
+Virtualization and Long Lists:
+
+Implement virtualization techniques (e.g., windowing with React Window or Infinite Scroll) to render long lists efficiently with smooth scrolling performance.
+Server-Side Rendering (SSR):
+
+Explain the concept of SSR in React and demonstrate how to set up SSR using frameworks like Next.js or custom solutions with ReactDOMServer.
+For Capable React Developers (Good understanding of core React concepts and state management):
+
+Higher Order Components (HOC) and Error Boundaries:
+
+Implement a higher order component to add common functionalities (e.g., authentication, data fetching) to multiple components.
+Create an error boundary component to catch and gracefully handle errors in your React application.
+Custom Hooks and PropTypes:
+
+Design and use custom hooks to encapsulate and reuse stateful logic across components.
+Define PropTypes for props validation in functional and class components to ensure data integrity.
+State Management:
+
+Implement state management using Context API for managing global state without prop drilling.
+Set up Redux or MobX for more complex state management scenarios, and demonstrate actions, reducers, and selectors.
+Redux Add-ons and Middleware:
+
+Utilize Redux Toolkit for efficient Redux setup with simplified code and built-in features like Immer for immutable updates.
+Implement middleware such as Thunk or Saga for handling asynchronous actions and side effects in Redux.
+JSX, Components, Lifecycle, Forms, Events, List and Keys:
+
+Showcase understanding of JSX syntax, functional and class components, component lifecycle methods (for class components), handling forms, event handling, and best practices for rendering lists with unique keys.
+Routing:
+
+Implement client-side routing using third-party libraries like React Router to manage navigation and nested routes in your React application.
+These questions cover a range of topics relevant to React development and are commonly asked in interviews for candidates with 2 years of experience. Be prepared to explain your code reasoning, discuss trade-offs between different approaches, and demonstrate best practices in React development. Adjust the complexity of questions based on your specific interview needs and the candidate's demonstrated skills during the interview process.
+
+
+
+
