@@ -13,7 +13,7 @@ The JavaScript Tree:
 | ├── Array
 | ├── Null
 | └── Undefined
-|
+|arrays objects functions classes set map date regexp // non primitive
 |── Operators
 | ├── Arithmetic
 | ├── Assignment
@@ -344,6 +344,16 @@ Bind returns a new function, allowing you to pass in a this array and any number
 
 assign constant is expression and normal function is declaration 
 
+const month=[ "Jan", "Feb", "Mar" ];	Array
+const user={ name : "ABC", age : 22 };	Object
+function sum(x,y){ return x+y;}	Function Declaration
+const x=function(x,y){ return x+y;};	Function Expression
+const x=new Date();	Date
+const x=/^[0-9]{6}$/;	RegExp
+class Car{}	Class Declaration
+const Car=class{}	Class Expression
+
+
 
 // Normal Function
 const numbers = function(one, two) {}
@@ -351,7 +361,15 @@ const numbers = function(one, two) {}
 // Arrow Function, with parentheses
 const numbers = (one, two) => {}
 
+//IIFE
+(function(name){
+console.log(name)
+})('iife')
 
+
+Lexical scope refers to the fact that a function can access variables from the scope where it was defined.
+
+varables declared within scope inside var(local scope),let and const(block scope)
 const me = () => ({ name: "samantha" });
 
 me(); // { name: "samantha" } ✅
@@ -359,6 +377,244 @@ me(); // { name: "samantha" } ✅
 const me = () => { name: "samantha" };
 
 me(); // undefined 😱
+
+// Example 1: Destructuring an array
+const numbers = [1, 2, 3];
+const [first, second, third] = numbers;
+console.log(first, second, third); // Output: 1 2 3
+
+// Example 2: Destructuring an object
+const person = { name: "Alice", age: 25 };
+const { name, age } = person; //desturcture with keys
+console.log(name, age); // Output: Alice 25
+
+arr.length is common
+
+// const arr=[1,2,3]
+arr.method('value')
+push,pop is from last 
+shift is remove from first and unshift is add elements in first
+
+slice creates new array whereas splice mutates the orginal array
+
+const fruits = ["apple", "banana", "orange"];
+// Remove 1 element starting from index 1
+fruits.splice(1, 1); 
+console.log(fruits); // Output: ["apple", "orange"]
+
+// Add "grape" at index 1
+fruits.splice(1, 0, "grape"); 
+console.log(fruits); // Output: ["apple", "grape", "orange"] 
+slice(): Creates a shallow copy of a portion of an array.
+JavaScript
+
+const fruits = ["apple", "banana", "orange", "grape"];
+const citrusFruits = fruits.slice(2); // From index 2 to the end
+console.log(citrusFruits); // Output: ["orange", "grape"]
+
+const middleFruits = fruits.slice(1, 3); // From index 1 to 2 (exclusive)
+console.log(middleFruits); // Output: ["banana", "orange"]
+
+array.concat(),forEach(),
+
+array.map(()=>
+{}
+)
+filter,reduce
+
+//object
+
+const person={
+  first:'1',
+  second:'2'
+}
+
+person.first / person["first"];
+
+Object.keys(person)
+Object.values(person)//returns array
+Object.entries(person)
+
+// Destructuring nested objects
+const company = {
+  name: "ACME Corp",
+  address: {
+    street: "123 Main St",
+    city: "Anytown"
+  }
+};
+
+const { address: { street, city } } = company;
+console.log(street, city); // Output: 123 Main St Anytown
+
+accesing will be company.address.street
+
+//async javascript
+
+//async
+
+async function(output){
+  const data=await response.json();
+  return data;
+}
+
+//ES6
+
+(async()=>{
+  try{}
+  catch(error){console.error('is',error)}
+  })
+
+  //Promise
+
+  function promiseone(){
+    return new Promise((resolve,reject)=>{
+      fetch(url).then(response=>{
+
+      }).then(resolve(data))
+      .catch(error=>{reject(error)})
+    })
+  }
+//ES6
+
+//promise
+
+function fetchData(url) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const data = { message: "Data fetched successfully!" };
+      resolve(data); 
+    }, 1000);
+  });
+}
+
+
+const promise =new Promise((resolve,reject)=>{if(num)resolve() elsereject()})
+
+promise.then((result)=>{console.log(result)}).catch((error)=>{console.log(error)})
+catch():
+Attaches a callback to handle the rejection of a Promise.
+finally():
+Attaches a callback that will be executed regardless of whether the Promise is fulfilled or rejected.
+
+Promise.all():
+* Takes an iterable of Promises as input.
+* Returns a single Promise that resolves only when all of the input Promises are fulfilled.
+* If any of the input Promises are rejected, the returned Promise is immediately rejected with the reason of the first rejection.
+
+const promise2=Promise.resolve("resolved")
+Promise.all([promise1,promise2]).then((result)=>{consol.log(result)}).catch((error)=>{error})
+
+Promise.allSettled()
+
+Waits for all the given Promises to either fulfill or reject.
+Returns a Promise that resolves with an array of objects, where each object represents the outcome of a Promise.
+
+Promise.race()
+
+Returns a Promise that resolves or rejects as soon as one of the input Promises resolves or rejects.
+
+
+Promise.allSettled() is useful when you need to know the outcome of all Promises, regardless of whether they succeed or fail.
+Promise.race() is useful when you want to handle the first successful or failed Promise quickly.
+Promise.any() is useful when you want to handle the first successful Promise, but you want to gracefully handle the case where all Promises fail.
+
+
+////
+A callback function 
+
+is a function that is passed as an argument to another function and executed later.
+A function can accept another function as a parameter.
+Callbacks allow one function to call another at a later time.
+A callback function can execute after another function has finished.
+
+function greet(name, callback) {
+    console.log("Hello, " + name);
+    callback();
+}
+
+function sayBye() {
+    console.log("Goodbye!");
+}
+
+greet("Ajay", sayBye);
+
+Output
+Hello, Ajay
+Goodbye!
+///
+
+async function
+
+async function fetchData(name){
+  try{
+    const response = await new promise((name)=>{
+console.log(name)
+    })
+  }
+  return response
+  catch(error){
+    consol.log(error)
+  }
+}
+
+fetchData('url').then(data=>{console.log(data)})
+
+Makes asynchronous code look more synchronous and easier to read.
+Uses the await keyword to pause execution until a Promise resolves.
+
+//fetch API
+
+async function fetchData() {
+  try {
+    const response = await fetch('https://api.example.com/data'); 
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    const data = await response.json(); 
+    console.log(data); 
+  } catch (error) {
+    console.error('There has been a problem with your fetch operation:', error);
+  }
+}
+
+fetchData();
+
+fetch() initiates an HTTP request.
+await pauses the execution of the async function until the fetch operation completes.
+response.ok checks if the HTTP status code is successful (200-299).
+response.json() parses the response as JSON.
+
+
+//setTimeout
+
+setTimeout(((result)=>{
+console.log(result)
+}),100)
+
+const timeoutId = setTimeout(() => {
+  console.log('This won’t be printed if cancelled');
+}, 3000);
+
+// Cancel the timeout
+clearTimeout(timeoutId);
+
+//setInterval
+
+setTimeout(): Used for executing code once after a delay.
+setInterval(): Used for executing code repeatedly at regular intervals.
+I hope this helps!
+
+let count = 0;
+const intervalId = setInterval(() => {
+  count++;
+  console.log(`Count is: ${count}`);
+  if (count === 5) {
+    clearInterval(intervalId);  // Stop the interval after 5 iterations
+    console.log('Interval stopped');
+  }
+}, 1000);
+
 
 ___________________
 
@@ -370,9 +626,19 @@ https://github.com/sudheerj/reactjs-interview-questions
 https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions/tree/master
 https://github.com/lukehoban/es6features
 https://www.interviewbit.com/redux-interview-questions/
+https://learn.codevolution.dev/p/preparing-for-a-frontend-interview
+https://www.w3schools.com/react/react_useref.asp
+
+
+The virtual DOM (VDOM) in React is a JavaScript representation of the Document Object Model (DOM). It's a lightweight copy of the DOM that's used to improve performance and make it easier to update the DOM. 
+
+Error boundaries are React components that catch errors during rendering, in constructors, lifecycle methods, and within child components. They prevent the entire React application from crashing due to errors in specific components.
+
+The reconciliation algorithm is a core feature of React that synchronizes the virtual DOM with the real DOM, ensuring efficient updates. This algorithm is designed to handle changes between different renders by updating the DOM in the most efficient way possible.
+
 
 -------------------
-Redux"
+"Redux"
 
 
 Flux is an application design paradigm just like the Model View Controller design pattern. Flux is nothing but a new kind of architecture that complements React and the concept of Unidirectional Data Flow
@@ -847,3 +1113,17 @@ console.log(message);
 logMessage("Hello, TypeScript!");
 // Prints "Hello, TypeScript!"
 --
+______________________
+Debounce 
+https://www.youtube.com/watch?v=Zo-6_qx8uxg
+
+https://codepen.io/akshaymarch7/pen/wNyjVX
+
+-
+
+Throttling
+https://www.youtube.com/watch?v=81NGEXAaa3Y
+
+https://codepen.io/akshaymarch7/pen/pXgxGo
+____________________________
+https://github.com/Devinterview-io/javascript-interview-questions/blob/main/README.md
